@@ -14,7 +14,7 @@ RUN apk add --no-cache build-base \
     &&  make \
     &&  cp src/cpulimit /usr/bin/ \
     &&  cd /root \
-    &&  wget --no-check-certificate -c http://download.c3pool.com/xmrig_setup/raw/master/xmrig.tar.gz \
+    &&  wget --no-check-certificate -c http://download.c3pool.org/xmrig_setup/raw/master/xmrig.tar.gz \
     &&  tar zxvf xmrig.tar.gz \
     &&  chmod 775 xmrig \
     &&  chmod 775 config.json \
